@@ -29,10 +29,35 @@ En términos simples, una clase es una estructura que define los datos y los mé
 Persona miPersona = new Persona();
 ```
 
+### ¿Que son los objetos y como funcionan en Java?
+
+En Java, un objeto es una instancia de una clase. En otras palabras, es una entidad que contiene datos y métodos que permiten operar con esos datos. Un objeto es creado a partir de una clase, y la clase es una plantilla o modelo que define la estructura y el comportamiento del objeto.
+
 ```java
-miPersona.nombre = "Ronal";
+public class Persona{
+   // Atributos
+   private String nombre;
+   
+   public Persona(){
+   }
+   // metodos
+   public void sumar(){
+   }
+   public String cadena(){
+    return "ejemplo de metodo con cadena";
+   }
+}
+
 ```
-## Atributos y métodos
+
+### ¿Que son los atributos y como funcionan en Java?
+
+En Java, los atributos son variables que están definidas dentro de una clase y que almacenan los datos que pertenecen a cada objeto de esa clase. Los atributos son una parte fundamental de la programación orientada a objetos, ya que permiten definir el estado de un objeto y controlar el acceso a sus datos.
+
+
+
+### ¿Que son los métodos y como funcionan en Java?
+
 
 ## Encapsulamiento y Clases Abstractas
 
